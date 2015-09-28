@@ -14,9 +14,7 @@ class OtherFormBuilderRedirectMiddleware(object):
 
     def _redirect_if_necessary(self, request, preferred_builder):
         try:
-            preferred_url = HttpResponseRedirect(
-                self.PREFERENCE_TO_URL[preferred_builder]
-            )
+            preferred_url = self.PREFERENCE_TO_URL[preferred_builder]
         except KeyError:
             # Ignore invalid preference
             return
