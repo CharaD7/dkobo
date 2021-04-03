@@ -3,7 +3,7 @@ django-compressor==1.4
 django-toolbelt==0.0.1
 hamlpy==0.82.2
 South==0.8.4
-gunicorn==18.0
+gunicorn==19.4.0
 BeautifulSoup==3.2.1
 django-registration==1.0
 djangorestframework==2.3.10
