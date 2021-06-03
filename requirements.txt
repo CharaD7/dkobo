@@ -1,4 +1,4 @@
-Django==1.6
+Django==2.2.24
 django-compressor==1.4
 django-toolbelt==0.0.1
 hamlpy==0.82.2
